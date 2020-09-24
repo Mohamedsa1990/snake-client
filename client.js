@@ -24,10 +24,11 @@ const connect = function() {
   //   setInterval(() => {conn.write('Move: left')}, 100)
   // })
  
-  
 
   return conn;
 }
 
 
-module.exports = connect
+module.exports = {
+  connect
+}
