@@ -19,6 +19,13 @@ const connect = function() {
   conn.on('connect', () => {
     conn.write('Name: MSA')
   })
+  // conn.on('connect', () => {
+  //   conn.write('Move: up')
+  //   setInterval(() => {conn.write('Move: left')}, 100)
+  // })
+ 
+  
+
   return conn;
 }
 
